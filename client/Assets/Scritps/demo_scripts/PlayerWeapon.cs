@@ -31,8 +31,11 @@ public class PlayerWeapon : FrameSyncBehaviour
             Bullet projectile = projectilePrefab.GetComponent<Bullet>();
             projectile.direction = FPTransform.forward;
             projectile.owner = owner;
+            projectile.ownerIndex = ownerIndex;
 
             cooldown = 1;
+
+            Debug.Log("Bullet SyncedInstantiate ownerIndex:" + ownerIndex +",owner.id:"+owner.id);
         }
         cooldown -= FrameSyncManager.DeltaTime;
     }

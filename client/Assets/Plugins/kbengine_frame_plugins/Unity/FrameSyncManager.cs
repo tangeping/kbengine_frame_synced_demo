@@ -135,7 +135,7 @@ public class FrameSyncManager : MonoBehaviour {
     {       
         for (int i = 0; i < Behaviors.Count; i++)
         {
-            if(Behaviors[i].Value == bh)
+            if(Behaviors[i].Key == bh)
             {
                 return i;
             }
@@ -158,11 +158,12 @@ public class FrameSyncManager : MonoBehaviour {
             List<FrameSyncManagedBehaviour> playerBehaviours = new List<FrameSyncManagedBehaviour>();
 
             FrameSyncBehaviour[] behaviours = perfab.GetComponentsInChildren<FrameSyncBehaviour>();
-            for (int index = 0, length = behaviours.Length; index < length; index++)
+            for (int index = 0; index < behaviours.Length; index++)
             {
                 FrameSyncBehaviour bh = behaviours[index];
 
                 bh.owner = entity;
+                bh.ownerIndex = entity.id;
                 bh.localOwner = SpaceData.Instance.localPlayer.owner;
                 bh.numberOfPlayers = SpaceData.Instance.SpacePlayers.Count;
                 playerBehaviours.Add(NewManagedBehavior((IFrameSyncBehaviour)bh));
@@ -369,6 +370,8 @@ public class FrameSyncManager : MonoBehaviour {
                     DestroyFPRigidBody(tsCollider2D.gameObject, tsCollider2D.Body);
                 }
             }
+           
+            Destroy(gameObject);
         }
     }
 
@@ -400,7 +403,10 @@ public class FrameSyncManager : MonoBehaviour {
      **/
     private static void DestroyFPRigidBody(GameObject tsColliderGO, IBody body)
     {
+        instance.OnRemovedRigidBody(body);
+
         tsColliderGO.gameObject.SetActive(false);
+       
         //instance.lockstep.Destroy(body);
     }
 
@@ -423,6 +429,8 @@ public class FrameSyncManager : MonoBehaviour {
         instance = this;
 
         lockedTimeStep = FrameSyncGlobalConfig.lockedTimeStep;
+
+        FPRandom.Init();
     }
 
     // Use this for initialization
@@ -563,6 +571,8 @@ public class FrameSyncManager : MonoBehaviour {
 
         if (go != null)
         {
+            PhysicsManager.instance.RemoveBody(body);
+
             List<FrameSyncBehaviour> behavioursToRemove = new List<FrameSyncBehaviour>(go.GetComponentsInChildren<FrameSyncBehaviour>());
 
             for (int i = 0; i < behavioursToRemove.Count; i++)
@@ -576,33 +586,31 @@ public class FrameSyncManager : MonoBehaviour {
                 }
             }
 
-
-            var behaviorsByPlayerEnum = behaviorsByPlayer.GetEnumerator();
-            while (behaviorsByPlayerEnum.MoveNext())
+            foreach (var item in behaviorsByPlayer)
             {
-                List<FrameSyncManagedBehaviour> listBh = behaviorsByPlayerEnum.Current.Value;
+                List<FrameSyncManagedBehaviour> listBh = item.Value;
                 RemoveFromTSMBList(listBh, behavioursToRemove);
             }
         }
     }
 
-    private void RemoveFromTSMBList(List<FrameSyncManagedBehaviour> tsmbList, List<FrameSyncBehaviour> behaviours)
+    private void RemoveFromTSMBList(List<FrameSyncManagedBehaviour> fsmbList, List<FrameSyncBehaviour> behaviours)
     {
         List<FrameSyncManagedBehaviour> toRemove = new List<FrameSyncManagedBehaviour>();
-        for (int index = 0, length = tsmbList.Count; index < length; index++)
+        for (int j = 0; j < fsmbList.Count; j++)
         {
-            FrameSyncManagedBehaviour tsmb = tsmbList[index];
+            FrameSyncManagedBehaviour fsmb = fsmbList[j];
 
-            if ((tsmb.FrameSyncBehavior is FrameSyncBehaviour) && behaviours.Contains((FrameSyncBehaviour)tsmb.FrameSyncBehavior))
+            if ((fsmb.FrameSyncBehavior is FrameSyncBehaviour) && behaviours.Contains((FrameSyncBehaviour)fsmb.FrameSyncBehavior))
             {
-                toRemove.Add(tsmb);
+                toRemove.Add(fsmb);
             }
         }
 
-        for (int index = 0, length = toRemove.Count; index < length; index++)
+        for (int i = 0; i < toRemove.Count; i++)
         {
-            FrameSyncManagedBehaviour tsmb = toRemove[index];
-            tsmbList.Remove(tsmb);
+            FrameSyncManagedBehaviour tsmb = toRemove[i];
+            fsmbList.Remove(tsmb);
         }
     }
 

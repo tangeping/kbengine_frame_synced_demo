@@ -26,7 +26,7 @@ public class PlayerMovement : FrameSyncBehaviour
     {
         FP accell = FrameSyncInput.GetFP(0);
         FP steer = FrameSyncInput.GetFP(1);
-        Debug.Log("OnSyncedUpdate::accell:" + accell + ",steer:" + steer);
+        //Debug.Log("OnSyncedUpdate::accell:" + accell + ",steer:" + steer);
 
         accell *= accellRate * FrameSyncManager.DeltaTime;
         steer *= steerRate * FrameSyncManager.DeltaTime;

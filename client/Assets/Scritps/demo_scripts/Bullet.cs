@@ -26,8 +26,11 @@ public class Bullet : FrameSyncBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
+            Debug.Log("OnSyncedTriggerEnter other :" + other.gameObject.name);
+
             PlayerMovement hitPlayer = other.gameObject.GetComponent<PlayerMovement>();
-            if (hitPlayer.owner.id != owner.id)
+
+            if (hitPlayer.ownerIndex != ownerIndex)
             {
                 FrameSyncManager.SyncedDestroy(this.gameObject);
                 hitPlayer.Respawn();
