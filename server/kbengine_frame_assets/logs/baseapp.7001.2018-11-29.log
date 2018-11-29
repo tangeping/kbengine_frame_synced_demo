@@ -1,0 +1,240 @@
+  INFO root [0x00001768] [2018-11-29 17:41:06,182] - 
+  INFO root [0x00001768] [2018-11-29 17:41:06,183] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00001768] [2018-11-29 17:41:06,184] - Resmgr::initialize: KBE_ROOT=E:/kbengine/
+  INFO root [0x00001768] [2018-11-29 17:41:06,184] - Resmgr::initialize: KBE_RES_PATH=E:/kbengine/kbe/res/;E:/kbengine/kbengine_frame_assets/;E:/kbengine/kbengine_frame_assets/scripts/;E:/kbengine/kbengine_frame_assets/res/
+  INFO root [0x00001768] [2018-11-29 17:41:06,184] - Resmgr::initialize: KBE_BIN_PATH=E:/kbengine/kbe/bin/server/
+  INFO root [0x00001768] [2018-11-29 17:41:06,187] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20015 )
+  INFO root [0x00001768] [2018-11-29 17:41:06,188] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.56.1:20015, SOMAXCONN=128.
+  INFO root [0x00001768] [2018-11-29 17:41:06,190] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20005 )
+  INFO root [0x00001768] [2018-11-29 17:41:06,191] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.56.1:20005, SOMAXCONN=128.
+  INFO root [0x00001768] [2018-11-29 17:41:06,193] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20876 )
+  INFO root [0x00001768] [2018-11-29 17:41:06,193] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:20876, SOMAXCONN=128.
+  INFO root [0x00001768] [2018-11-29 17:41:06,193] - server-configs:
+  INFO root [0x00001768] [2018-11-29 17:41:06,193] - 	gameUpdateHertz : 30
+  INFO root [0x00001768] [2018-11-29 17:41:06,193] - 	entryScriptFile : kbemain
+  INFO root [0x00001768] [2018-11-29 17:41:06,193] - 	internalTcpAddr : 192.168.56.1:20876
+  INFO root [0x00001768] [2018-11-29 17:41:06,193] - 	externalTcpAddr : 192.168.56.1:20015
+  INFO root [0x00001768] [2018-11-29 17:41:06,193] - 	externalUdpAddr : 192.168.56.1:20005
+  INFO root [0x00001768] [2018-11-29 17:41:06,193] - 	componentID : 7001
+  INFO root [0x00001768] [2018-11-29 17:41:07,865] - ---- baseapp Version: 2.3.0. ScriptVersion: 0.1.0. Protocol: 80C0886BDF60A0096A3C38A68779DEFD. Config: Debug X86. Built: 11:07:03 Nov 12 2018. AppID: 7001. UID: 10103. PID: 1100 ----
+  INFO root [0x00001768] [2018-11-29 17:41:07,865] - Server : Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz with 2097151kB RAM
+  INFO root [0x00001768] [2018-11-29 17:41:07,865] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00001768] [2018-11-29 17:41:07,866] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00001768] [2018-11-29 17:41:08,029] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00001768] [2018-11-29 17:41:08,029] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00001768] [2018-11-29 17:41:08,030] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x00001768] [2018-11-29 17:41:08,033] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00001768] [2018-11-29 17:41:08,033] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00001768] [2018-11-29 17:41:08,033] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00001768] [2018-11-29 17:41:08,034] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00001768] [2018-11-29 17:41:08,068] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00001768] [2018-11-29 17:41:08,100] - Script::install(): is successfully, Python=(3.4.2 (default, Nov 12 2018, 11:06:34) [MSC v.1915 32 bit (Intel)])!
+  INFO root [0x00001768] [2018-11-29 17:41:08,100] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00001768] [2018-11-29 17:41:08,175] - loaded entity-script:Account(1).
+ DEBUG root [0x00001768] [2018-11-29 17:41:08,178] - loaded entity-script:Avatar(2).
+ DEBUG root [0x00001768] [2018-11-29 17:41:08,181] - loaded entity-script:Halls(6).
+ DEBUG root [0x00001768] [2018-11-29 17:41:08,183] - loaded entity-script:Room(7).
+  INFO root [0x00001768] [2018-11-29 17:41:08,183] - Baseapp::initializeEnd: started resmgr tick(60s)!
+  INFO root [0x00001768] [2018-11-29 17:41:08,183] - TelnetServer server is running on port 40000
+  INFO root [0x00001768] [2018-11-29 17:41:08,591] - ---- baseapp is running ----
+ DEBUG root [0x00001768] [2018-11-29 17:41:08,591] - Components::process(): Request for the process of identity...
+  WARN root [0x00001768] [2018-11-29 17:41:14,693] - EntityApp::checkTickPeriod: tick took 18490% (18.49 seconds)!
+  INFO root [0x00001768] [2018-11-29 17:41:15,725] - Components::findComponents: find logger(1)...
+  INFO root [0x00001768] [2018-11-29 17:41:15,768] - Components::findComponents: found logger, addr:192.168.56.1:20870
+  INFO root [0x00001768] [2018-11-29 17:41:15,769] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [0x00001768] [2018-11-29 17:41:15,769] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00001768] [2018-11-29 17:41:15,772] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x00001768] [2018-11-29 17:41:15,877] - Components::findComponents: found dbmgr, addr:192.168.56.1:20871
+  INFO root [0x00001768] [2018-11-29 17:41:15,878] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [0x00001768] [2018-11-29 17:41:15,878] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00001768] [2018-11-29 17:41:15,879] - Components::findComponents: found dbmgr, addr:192.168.56.1:20871
+  WARN root [0x00001768] [2018-11-29 17:41:16,881] - EntityApp::checkTickPeriod: tick took 3603% (3.60 seconds)!
+  WARN root [0x00001768] [2018-11-29 17:41:16,881] - Forwarding logs to logger[192.168.56.1:20870/0/0/0]...
+ ERROR root [0x00001768] [2018-11-29 17:42:15,612] - KCPPacketSender::ikcp_send: send error! currPacketSize=27, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x00001768] [2018-11-29 17:42:15,612] - 192.168.56.1:61084: UDPPacketSender::processSend(internal, 1): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x00001768] [2018-11-29 17:42:15,645] - KCPPacketSender::ikcp_send: send error! currPacketSize=54, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x00001768] [2018-11-29 17:42:15,646] - 192.168.56.1:61084: UDPPacketSender::processSend(internal, 2): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x00001768] [2018-11-29 17:42:15,678] - KCPPacketSender::ikcp_send: send error! currPacketSize=81, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x00001768] [2018-11-29 17:42:15,680] - 192.168.56.1:61084: UDPPacketSender::processSend(internal, 3): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x00001768] [2018-11-29 17:42:15,711] - KCPPacketSender::ikcp_send: send error! currPacketSize=108, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x00001768] [2018-11-29 17:42:15,714] - 192.168.56.1:61084: UDPPacketSender::processSend(internal, 4): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x00001768] [2018-11-29 17:42:15,745] - KCPPacketSender::ikcp_send: send error! currPacketSize=135, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x00001768] [2018-11-29 17:42:15,746] - 192.168.56.1:61084: UDPPacketSender::processSend(internal, 5): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x00001768] [2018-11-29 17:42:15,778] - KCPPacketSender::ikcp_send: send error! currPacketSize=162, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x00001768] [2018-11-29 17:42:15,779] - 192.168.56.1:61084: UDPPacketSender::processSend(internal, 6): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x00001768] [2018-11-29 17:42:15,812] - KCPPacketSender::ikcp_send: send error! currPacketSize=189, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x00001768] [2018-11-29 17:42:15,814] - 192.168.56.1:61084: UDPPacketSender::processSend(internal, 7): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x00001768] [2018-11-29 17:42:15,845] - KCPPacketSender::ikcp_send: send error! currPacketSize=216, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x00001768] [2018-11-29 17:42:15,847] - 192.168.56.1:61084: UDPPacketSender::processSend(internal, 8): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x00001768] [2018-11-29 17:42:15,878] - KCPPacketSender::ikcp_send: send error! currPacketSize=243, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x00001768] [2018-11-29 17:42:15,879] - 192.168.56.1:61084: UDPPacketSender::processSend(internal, 9): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x00001768] [2018-11-29 17:42:15,912] - KCPPacketSender::ikcp_send: send error! currPacketSize=270, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x00001768] [2018-11-29 17:42:15,913] - 192.168.56.1:61084: UDPPacketSender::processSend(external, sendfailCount(10) >= 10): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x00001768] [2018-11-29 17:48:13,669] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! TCPPacketReceiver::processRecv(): error=10054
+
+  INFO root [0x00001768] [2018-11-29 17:48:13,671] - The following logs sent to logger failed:
+  WARN root [0x00001768] [2018-11-29 17:48:13,672] - ==> [2018-11-29 17:48:13 611] Baseapp::onEntityCall: not found clientEntityCall! entitycallType=6, entityID=10004.
+  WARN root [0x00001768] [2018-11-29 17:48:13,672] - ==> [2018-11-29 17:48:13 644] Baseapp::onEntityCall: not found clientEntityCall! entitycallType=6, entityID=10004.
+  WARN root [0x00001768] [2018-11-29 17:48:13,672] - ==> [2018-11-29 17:48:13 668] TCPPacketReceiver::processPendingEvents(192.168.56.1:20870): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00001768] [2018-11-29 17:48:13,672] - ==> [2018-11-29 17:48:13 669] Components::removeComponentByChannel: logger : 2000, Abnormal exit! TCPPacketReceiver::processRecv(): error=10054
+
+  WARN root [0x00001768] [2018-11-29 17:48:13,678] - Baseapp::onEntityCall: not found clientEntityCall! entitycallType=6, entityID=10004.
+  WARN root [0x00001768] [2018-11-29 17:48:13,710] - Baseapp::onEntityCall: not found clientEntityCall! entitycallType=6, entityID=10004.
+  WARN root [0x00001768] [2018-11-29 17:48:13,722] - TCPPacketReceiver::processPendingEvents(192.168.56.1:20871): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00001768] [2018-11-29 17:48:13,723] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit! TCPPacketReceiver::processRecv(): error=10054
+
+  INFO root [0x00001768] [2018-11-29 17:48:13,729] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+S_INFO root [0x00001768] [2018-11-29 17:48:13,733] - onBaseAppShutDown: state=0
+  INFO root [0x00001768] [2018-11-29 17:48:13,733] - Shutdowner::onShutdown: shutting down
+S_INFO root [0x00001768] [2018-11-29 17:48:13,733] - onBaseAppShutDown: state=1
+  INFO root [0x00001768] [2018-11-29 17:48:13,733] - Shutdowner::onShutdownEnd: shutting down
+S_INFO root [0x00001768] [2018-11-29 17:48:13,734] - onBaseAppShutDown: state=2
+ ERROR root [0x00001768] [2018-11-29 17:48:13,742] - Account::onCellWriteToDBCompleted(10002): not found dbmgr!
+ ERROR root [0x00001768] [2018-11-29 17:48:13,743] - Entity::onDestroy: not found dbmgr!
+ ERROR root [0x00001768] [2018-11-29 17:48:13,743] - Avatar::onCellWriteToDBCompleted(10004): not found dbmgr!
+ ERROR root [0x00001768] [2018-11-29 17:48:13,745] - Entity::onDestroy: not found dbmgr!
+ ERROR root [0x00001768] [2018-11-29 17:48:13,746] - Account::onCellWriteToDBCompleted(10006): not found dbmgr!
+ ERROR root [0x00001768] [2018-11-29 17:48:13,746] - Entity::onDestroy: not found dbmgr!
+ ERROR root [0x00001768] [2018-11-29 17:48:13,747] - Avatar::onCellWriteToDBCompleted(10008): not found dbmgr!
+ ERROR root [0x00001768] [2018-11-29 17:48:13,747] - Entity::onDestroy: not found dbmgr!
+ ERROR root [0x00001768] [2018-11-29 17:48:13,748] - EntityGarbages::~EntityGarbages(): leaked, size=6.
+ ERROR root [0x00001768] [2018-11-29 17:48:13,750] - 	--> leaked: Halls(10001).
+ ERROR root [0x00001768] [2018-11-29 17:48:13,751] - 	--> leaked: Account(10002).
+ ERROR root [0x00001768] [2018-11-29 17:48:13,752] - 	--> leaked: Avatar(10004).
+ ERROR root [0x00001768] [2018-11-29 17:48:13,752] - 	--> leaked: Room(10005).
+ ERROR root [0x00001768] [2018-11-29 17:48:13,754] - 	--> leaked: Account(10006).
+ ERROR root [0x00001768] [2018-11-29 17:48:13,755] - 	--> leaked: Avatar(10008).
+ ERROR root [0x00001768] [2018-11-29 17:48:13,756] - PyGC::debugTracing(): Entity : leaked(6)
+ ERROR root [0x00001768] [2018-11-29 17:48:13,757] - PyGC::debugTracing(): EntityCall : leaked(4)
+ DEBUG root [0x00001768] [2018-11-29 17:48:13,757] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00001768] [2018-11-29 17:48:13,757] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [0x00001768] [2018-11-29 17:48:13,757] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [0x00001768] [2018-11-29 17:48:13,758] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00001768] [2018-11-29 17:48:13,758] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [0x00001768] [2018-11-29 17:48:13,758] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00001768] [2018-11-29 17:48:13,758] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00001768] [2018-11-29 17:48:13,758] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [0x00001768] [2018-11-29 17:48:13,770] - Script::uninstall(): is successfully!
+ DEBUG root [0x00001768] [2018-11-29 17:48:13,770] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00001768] [2018-11-29 17:48:14,073] - ThreadPool::destroy(): waiting for thread(2)[0x24ad2a8,0x24ad310,], try=1
+  INFO root [0x00000258] [2018-11-29 17:48:15,398] - 
+  INFO root [0x00000258] [2018-11-29 17:48:15,398] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00000258] [2018-11-29 17:48:15,399] - Resmgr::initialize: KBE_ROOT=E:/kbengine/
+  INFO root [0x00000258] [2018-11-29 17:48:15,400] - Resmgr::initialize: KBE_RES_PATH=E:/kbengine/kbe/res/;E:/kbengine/kbengine_frame_assets/;E:/kbengine/kbengine_frame_assets/scripts/;E:/kbengine/kbengine_frame_assets/res/
+  INFO root [0x00000258] [2018-11-29 17:48:15,400] - Resmgr::initialize: KBE_BIN_PATH=E:/kbengine/kbe/bin/server/
+  INFO root [0x00000258] [2018-11-29 17:48:15,403] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20015 )
+  INFO root [0x00000258] [2018-11-29 17:48:15,403] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.56.1:20015, SOMAXCONN=128.
+  INFO root [0x00000258] [2018-11-29 17:48:15,406] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20005 )
+  INFO root [0x00000258] [2018-11-29 17:48:15,406] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.56.1:20005, SOMAXCONN=128.
+  INFO root [0x00000258] [2018-11-29 17:48:15,408] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:21102 )
+  INFO root [0x00000258] [2018-11-29 17:48:15,408] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:21102, SOMAXCONN=128.
+  INFO root [0x00000258] [2018-11-29 17:48:15,408] - server-configs:
+  INFO root [0x00000258] [2018-11-29 17:48:15,408] - 	gameUpdateHertz : 30
+  INFO root [0x00000258] [2018-11-29 17:48:15,409] - 	entryScriptFile : kbemain
+  INFO root [0x00000258] [2018-11-29 17:48:15,409] - 	internalTcpAddr : 192.168.56.1:21102
+  INFO root [0x00000258] [2018-11-29 17:48:15,409] - 	externalTcpAddr : 192.168.56.1:20015
+  INFO root [0x00000258] [2018-11-29 17:48:15,409] - 	externalUdpAddr : 192.168.56.1:20005
+  INFO root [0x00000258] [2018-11-29 17:48:15,409] - 	componentID : 7001
+  WARN root [0x00000258] [2018-11-29 17:48:15,954] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20205, errorno=10048
+  INFO root [0x00000258] [2018-11-29 17:48:15,971] - ---- baseapp Version: 2.3.0. ScriptVersion: 0.1.0. Protocol: 80C0886BDF60A0096A3C38A68779DEFD. Config: Debug X86. Built: 11:07:03 Nov 12 2018. AppID: 7001. UID: 10103. PID: 18288 ----
+  INFO root [0x00000258] [2018-11-29 17:48:15,972] - Server : Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz with 2097151kB RAM
+  INFO root [0x00000258] [2018-11-29 17:48:15,972] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00000258] [2018-11-29 17:48:15,972] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00000258] [2018-11-29 17:48:16,103] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00000258] [2018-11-29 17:48:16,104] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00000258] [2018-11-29 17:48:16,104] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x00000258] [2018-11-29 17:48:16,107] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00000258] [2018-11-29 17:48:16,107] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00000258] [2018-11-29 17:48:16,108] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00000258] [2018-11-29 17:48:16,108] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00000258] [2018-11-29 17:48:16,138] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00000258] [2018-11-29 17:48:16,175] - Script::install(): is successfully, Python=(3.4.2 (default, Nov 12 2018, 11:06:34) [MSC v.1915 32 bit (Intel)])!
+  INFO root [0x00000258] [2018-11-29 17:48:16,175] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00000258] [2018-11-29 17:48:16,253] - loaded entity-script:Account(1).
+ DEBUG root [0x00000258] [2018-11-29 17:48:16,256] - loaded entity-script:Avatar(2).
+ DEBUG root [0x00000258] [2018-11-29 17:48:16,259] - loaded entity-script:Halls(6).
+ DEBUG root [0x00000258] [2018-11-29 17:48:16,260] - loaded entity-script:Room(7).
+  INFO root [0x00000258] [2018-11-29 17:48:16,260] - Baseapp::initializeEnd: started resmgr tick(60s)!
+  INFO root [0x00000258] [2018-11-29 17:48:16,260] - TelnetServer server is running on port 40000
+  INFO root [0x00000258] [2018-11-29 17:48:16,565] - ---- baseapp is running ----
+ DEBUG root [0x00000258] [2018-11-29 17:48:16,565] - Components::process(): Request for the process of identity...
+  WARN root [0x00000258] [2018-11-29 17:48:22,668] - EntityApp::checkTickPeriod: tick took 18496% (18.50 seconds)!
+  INFO root [0x00000258] [2018-11-29 17:48:23,698] - Components::findComponents: find logger(1)...
+  INFO root [0x00000258] [2018-11-29 17:48:23,735] - Components::findComponents: found logger, addr:192.168.56.1:21098
+  INFO root [0x00000258] [2018-11-29 17:48:23,736] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [0x00000258] [2018-11-29 17:48:23,736] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00000258] [2018-11-29 17:48:23,737] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x00000258] [2018-11-29 17:48:23,840] - Components::findComponents: found dbmgr, addr:192.168.56.1:21100
+  INFO root [0x00000258] [2018-11-29 17:48:23,841] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [0x00000258] [2018-11-29 17:48:23,841] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00000258] [2018-11-29 17:48:23,842] - Components::findComponents: found dbmgr, addr:192.168.56.1:21100
+  WARN root [0x00000258] [2018-11-29 17:48:24,843] - EntityApp::checkTickPeriod: tick took 3569% (3.57 seconds)!
+  WARN root [0x00000258] [2018-11-29 17:48:24,843] - Forwarding logs to logger[192.168.56.1:21098/0/0/0]...
+ ERROR root [0x00000258] [2018-11-29 17:50:55,675] - KCPPacketSender::ikcp_send: send error! currPacketSize=27, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x00000258] [2018-11-29 17:50:55,676] - 192.168.56.1:56031: UDPPacketSender::processSend(internal, 1): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x00000258] [2018-11-29 17:50:55,708] - KCPPacketSender::ikcp_send: send error! currPacketSize=54, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x00000258] [2018-11-29 17:50:55,709] - 192.168.56.1:56031: UDPPacketSender::processSend(internal, 2): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x00000258] [2018-11-29 17:50:55,742] - KCPPacketSender::ikcp_send: send error! currPacketSize=81, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x00000258] [2018-11-29 17:50:55,743] - 192.168.56.1:56031: UDPPacketSender::processSend(internal, 3): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x00000258] [2018-11-29 17:50:55,775] - KCPPacketSender::ikcp_send: send error! currPacketSize=108, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x00000258] [2018-11-29 17:50:55,776] - 192.168.56.1:56031: UDPPacketSender::processSend(internal, 4): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x00000258] [2018-11-29 17:50:55,808] - KCPPacketSender::ikcp_send: send error! currPacketSize=135, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x00000258] [2018-11-29 17:50:55,809] - 192.168.56.1:56031: UDPPacketSender::processSend(internal, 5): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x00000258] [2018-11-29 17:50:55,841] - KCPPacketSender::ikcp_send: send error! currPacketSize=162, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x00000258] [2018-11-29 17:50:55,842] - 192.168.56.1:56031: UDPPacketSender::processSend(internal, 6): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x00000258] [2018-11-29 17:50:55,875] - KCPPacketSender::ikcp_send: send error! currPacketSize=189, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x00000258] [2018-11-29 17:50:55,876] - 192.168.56.1:56031: UDPPacketSender::processSend(internal, 7): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x00000258] [2018-11-29 17:50:55,908] - KCPPacketSender::ikcp_send: send error! currPacketSize=216, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x00000258] [2018-11-29 17:50:55,908] - 192.168.56.1:56031: UDPPacketSender::processSend(internal, 8): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x00000258] [2018-11-29 17:50:55,941] - KCPPacketSender::ikcp_send: send error! currPacketSize=243, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x00000258] [2018-11-29 17:50:55,942] - 192.168.56.1:56031: UDPPacketSender::processSend(internal, 9): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x00000258] [2018-11-29 17:50:55,974] - KCPPacketSender::ikcp_send: send error! currPacketSize=270, ikcp_waitsnd=257, snd_wndsize=128
+ ERROR root [0x00000258] [2018-11-29 17:50:55,975] - 192.168.56.1:56031: UDPPacketSender::processSend(external, sendfailCount(10) >= 10): Exception occurred: REASON_RESOURCE_UNAVAILABLE
+ ERROR root [0x00000258] [2018-11-29 17:51:11,896] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! TCPPacketReceiver::processRecv(): error=10054
+
+  INFO root [0x000031b4] [2018-11-29 17:51:13,516] - 
+  INFO root [0x000031b4] [2018-11-29 17:51:13,520] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000031b4] [2018-11-29 17:51:13,521] - Resmgr::initialize: KBE_ROOT=E:/kbengine/
+  INFO root [0x000031b4] [2018-11-29 17:51:13,521] - Resmgr::initialize: KBE_RES_PATH=E:/kbengine/kbe/res/;E:/kbengine/kbengine_frame_assets/;E:/kbengine/kbengine_frame_assets/scripts/;E:/kbengine/kbengine_frame_assets/res/
+  INFO root [0x000031b4] [2018-11-29 17:51:13,521] - Resmgr::initialize: KBE_BIN_PATH=E:/kbengine/kbe/bin/server/
+  INFO root [0x000031b4] [2018-11-29 17:51:13,525] - NetworkInterface::initialize(EXTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20015 )
+  INFO root [0x000031b4] [2018-11-29 17:51:13,525] - NetworkInterface::initialize(EXTERNAL-TCP): address 192.168.56.1:20015, SOMAXCONN=128.
+  INFO root [0x000031b4] [2018-11-29 17:51:13,531] - NetworkInterface::initialize(EXTERNAL-UDP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20005 )
+  INFO root [0x000031b4] [2018-11-29 17:51:13,532] - NetworkInterface::initialize(EXTERNAL-UDP): address 192.168.56.1:20005, SOMAXCONN=128.
+  INFO root [0x000031b4] [2018-11-29 17:51:13,535] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:21178 )
+  INFO root [0x000031b4] [2018-11-29 17:51:13,535] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:21178, SOMAXCONN=128.
+  INFO root [0x000031b4] [2018-11-29 17:51:13,535] - server-configs:
+  INFO root [0x000031b4] [2018-11-29 17:51:13,535] - 	gameUpdateHertz : 30
+  INFO root [0x000031b4] [2018-11-29 17:51:13,535] - 	entryScriptFile : kbemain
+  INFO root [0x000031b4] [2018-11-29 17:51:13,535] - 	internalTcpAddr : 192.168.56.1:21178
+  INFO root [0x000031b4] [2018-11-29 17:51:13,535] - 	externalTcpAddr : 192.168.56.1:20015
+  INFO root [0x000031b4] [2018-11-29 17:51:13,536] - 	externalUdpAddr : 192.168.56.1:20005
+  INFO root [0x000031b4] [2018-11-29 17:51:13,536] - 	componentID : 7001
+  INFO root [0x000031b4] [2018-11-29 17:51:15,222] - ---- baseapp Version: 2.3.0. ScriptVersion: 0.1.0. Protocol: 80C0886BDF60A0096A3C38A68779DEFD. Config: Debug X86. Built: 11:07:03 Nov 12 2018. AppID: 7001. UID: 10103. PID: 13340 ----
+  INFO root [0x000031b4] [2018-11-29 17:51:15,233] - Server : Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz with 2097151kB RAM
+  INFO root [0x000031b4] [2018-11-29 17:51:15,233] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000031b4] [2018-11-29 17:51:15,234] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x000031b4] [2018-11-29 17:51:15,407] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x000031b4] [2018-11-29 17:51:15,407] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x000031b4] [2018-11-29 17:51:15,408] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x000031b4] [2018-11-29 17:51:15,411] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x000031b4] [2018-11-29 17:51:15,411] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x000031b4] [2018-11-29 17:51:15,411] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x000031b4] [2018-11-29 17:51:15,412] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x000031b4] [2018-11-29 17:51:15,452] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x000031b4] [2018-11-29 17:51:15,489] - Script::install(): is successfully, Python=(3.4.2 (default, Nov 12 2018, 11:06:34) [MSC v.1915 32 bit (Intel)])!
+  INFO root [0x000031b4] [2018-11-29 17:51:15,489] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x000031b4] [2018-11-29 17:51:15,599] - loaded entity-script:Account(1).
+ DEBUG root [0x000031b4] [2018-11-29 17:51:15,603] - loaded entity-script:Avatar(2).
+ DEBUG root [0x000031b4] [2018-11-29 17:51:15,607] - loaded entity-script:Halls(6).
+ DEBUG root [0x000031b4] [2018-11-29 17:51:15,609] - loaded entity-script:Room(7).
+  INFO root [0x000031b4] [2018-11-29 17:51:15,610] - Baseapp::initializeEnd: started resmgr tick(60s)!
+  INFO root [0x000031b4] [2018-11-29 17:51:15,611] - TelnetServer server is running on port 40000
+  INFO root [0x000031b4] [2018-11-29 17:51:16,083] - ---- baseapp is running ----
+ DEBUG root [0x000031b4] [2018-11-29 17:51:16,083] - Components::process(): Request for the process of identity...

@@ -1,0 +1,235 @@
+  INFO root [0x00003f34] [2018-11-29 17:41:06,172] - 
+  INFO root [0x00003f34] [2018-11-29 17:41:06,173] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00003f34] [2018-11-29 17:41:06,174] - Resmgr::initialize: KBE_ROOT=E:/kbengine/
+  INFO root [0x00003f34] [2018-11-29 17:41:06,174] - Resmgr::initialize: KBE_RES_PATH=E:/kbengine/kbe/res/;E:/kbengine/kbengine_frame_assets/;E:/kbengine/kbengine_frame_assets/scripts/;E:/kbengine/kbengine_frame_assets/res/
+  INFO root [0x00003f34] [2018-11-29 17:41:06,174] - Resmgr::initialize: KBE_BIN_PATH=E:/kbengine/kbe/bin/server/
+  INFO root [0x00003f34] [2018-11-29 17:41:06,177] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:20874 )
+  INFO root [0x00003f34] [2018-11-29 17:41:06,177] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:20874, SOMAXCONN=5.
+  INFO root [0x00003f34] [2018-11-29 17:41:06,178] - server-configs:
+  INFO root [0x00003f34] [2018-11-29 17:41:06,178] - 	gameUpdateHertz : 30
+  INFO root [0x00003f34] [2018-11-29 17:41:06,178] - 	defaultViewRadius : 80
+  INFO root [0x00003f34] [2018-11-29 17:41:06,178] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00003f34] [2018-11-29 17:41:06,178] - 	entryScriptFile : kbemain
+  INFO root [0x00003f34] [2018-11-29 17:41:06,178] - 	internalTcpAddr : 192.168.56.1:20874
+  INFO root [0x00003f34] [2018-11-29 17:41:06,178] - 	componentID : 8001
+  INFO root [0x00003f34] [2018-11-29 17:41:07,684] - ---- cellapp Version: 2.3.0. ScriptVersion: 0.1.0. Protocol: 22FBE5C5190A61059B8ACA6E5FBE8BEB. Config: Debug X86. Built: 11:09:01 Nov 12 2018. AppID: 8001. UID: 10103. PID: 4872 ----
+  INFO root [0x00003f34] [2018-11-29 17:41:07,684] - Server : Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz with 2097151kB RAM
+  INFO root [0x00003f34] [2018-11-29 17:41:07,684] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00003f34] [2018-11-29 17:41:07,685] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00003f34] [2018-11-29 17:41:07,811] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00003f34] [2018-11-29 17:41:07,811] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00003f34] [2018-11-29 17:41:07,812] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x00003f34] [2018-11-29 17:41:07,815] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00003f34] [2018-11-29 17:41:07,815] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00003f34] [2018-11-29 17:41:07,815] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00003f34] [2018-11-29 17:41:07,816] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00003f34] [2018-11-29 17:41:07,848] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00003f34] [2018-11-29 17:41:07,882] - Script::install(): is successfully, Python=(3.4.2 (default, Nov 12 2018, 11:07:42) [MSC v.1915 32 bit (Intel)])!
+  INFO root [0x00003f34] [2018-11-29 17:41:07,882] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00003f34] [2018-11-29 17:41:07,941] - loaded component-script:FrameSync(8).
+ DEBUG root [0x00003f34] [2018-11-29 17:41:07,943] - loaded component-script:FrameSyncReport(3).
+ DEBUG root [0x00003f34] [2018-11-29 17:41:07,944] - loaded component-script:Operation(4).
+ DEBUG root [0x00003f34] [2018-11-29 17:41:07,949] - loaded entity-script:Avatar(2).
+ DEBUG root [0x00003f34] [2018-11-29 17:41:07,951] - loaded entity-script:FrameSyncMgr(5).
+ DEBUG root [0x00003f34] [2018-11-29 17:41:07,953] - loaded entity-script:Room(7).
+  INFO root [0x00003f34] [2018-11-29 17:41:07,954] - TelnetServer server is running on port 50000
+  INFO root [0x00003f34] [2018-11-29 17:41:08,348] - ---- cellapp is running ----
+ DEBUG root [0x00003f34] [2018-11-29 17:41:08,367] - Components::process(): Request for the process of identity...
+  WARN root [0x00003f34] [2018-11-29 17:41:14,484] - EntityApp::checkTickPeriod: tick took 18590% (18.59 seconds)!
+  INFO root [0x00003f34] [2018-11-29 17:41:15,516] - Components::findComponents: find logger(1)...
+  INFO root [0x00003f34] [2018-11-29 17:41:15,545] - Components::findComponents: found logger, addr:192.168.56.1:20870
+  INFO root [0x00003f34] [2018-11-29 17:41:15,546] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [0x00003f34] [2018-11-29 17:41:15,546] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00003f34] [2018-11-29 17:41:15,548] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x00003f34] [2018-11-29 17:41:15,649] - Components::findComponents: found dbmgr, addr:192.168.56.1:20871
+  INFO root [0x00003f34] [2018-11-29 17:41:15,650] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [0x00003f34] [2018-11-29 17:41:15,650] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00003f34] [2018-11-29 17:41:15,655] - Components::findComponents: found dbmgr, addr:192.168.56.1:20871
+  WARN root [0x00003f34] [2018-11-29 17:41:16,655] - EntityApp::checkTickPeriod: tick took 3554% (3.55 seconds)!
+  WARN root [0x00003f34] [2018-11-29 17:41:16,655] - Forwarding logs to logger[192.168.56.1:20870/0/0/0]...
+ ERROR root [0x00003f34] [2018-11-29 17:48:13,669] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! TCPPacketReceiver::processRecv(): error=10054
+
+  INFO root [0x00003f34] [2018-11-29 17:48:13,673] - The following logs sent to logger failed:
+  WARN root [0x00003f34] [2018-11-29 17:48:13,673] - ==> [2018-11-29 17:48:13 668] TCPPacketReceiver::processPendingEvents(192.168.56.1:20870): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00003f34] [2018-11-29 17:48:13,673] - ==> [2018-11-29 17:48:13 669] Components::removeComponentByChannel: logger : 2000, Abnormal exit! TCPPacketReceiver::processRecv(): error=10054
+
+  WARN root [0x00003f34] [2018-11-29 17:48:13,722] - TCPPacketReceiver::processPendingEvents(192.168.56.1:20871): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00003f34] [2018-11-29 17:48:13,724] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit! TCPPacketReceiver::processRecv(): error=10054
+
+  INFO root [0x00003f34] [2018-11-29 17:48:13,734] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00003f34] [2018-11-29 17:48:13,736] - Shutdowner::onShutdown: shutting down
+S_INFO root [0x00003f34] [2018-11-29 17:48:13,736] - Operation::onDetached(): owner=10005
+ S_DBG root [0x00003f34] [2018-11-29 17:48:13,736] - Room::onDestroy: 10005
+S_INFO root [0x00003f34] [2018-11-29 17:48:13,737] - Operation::onDetached(): owner=10004
+ S_ERR root [0x00003f34] [2018-11-29 17:48:13,738] - Traceback (most recent call last):
+  File "E:/kbengine/kbengine_frame_assets/scripts/cell/components\FrameSyncReport.py", line 21, in onDetached
+    frameSyncMgr = getFrameSyncMgr()
+ S_ERR root [0x00003f34] [2018-11-29 17:48:13,740] - NameError: name 'getFrameSyncMgr' is not defined
+S_INFO root [0x00003f34] [2018-11-29 17:48:13,740] - Operation::onDetached(): owner=10004
+ S_DBG root [0x00003f34] [2018-11-29 17:48:13,741] - Avatar::onDestroy: 10004.
+S_INFO root [0x00003f34] [2018-11-29 17:48:13,742] - Operation::onDetached(): owner=10008
+ S_ERR root [0x00003f34] [2018-11-29 17:48:13,742] - Traceback (most recent call last):
+  File "E:/kbengine/kbengine_frame_assets/scripts/cell/components\FrameSyncReport.py", line 21, in onDetached
+    frameSyncMgr = getFrameSyncMgr()
+ S_ERR root [0x00003f34] [2018-11-29 17:48:13,743] - NameError: name 'getFrameSyncMgr' is not defined
+S_INFO root [0x00003f34] [2018-11-29 17:48:13,744] - Operation::onDetached(): owner=10008
+ S_DBG root [0x00003f34] [2018-11-29 17:48:13,744] - Avatar::onDestroy: 10008.
+  INFO root [0x00003f34] [2018-11-29 17:48:13,745] - Spaces::destroySpace: 1.
+  INFO root [0x00003f34] [2018-11-29 17:48:13,745] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00003f34] [2018-11-29 17:48:13,746] - EntityRef::destroyObjPool(): size 16.
+ DEBUG root [0x00003f34] [2018-11-29 17:48:13,746] - Witness::destroyObjPool(): size 16.
+ ERROR root [0x00003f34] [2018-11-29 17:48:13,755] - EntityGarbages::~EntityGarbages(): leaked, size=4.
+ ERROR root [0x00003f34] [2018-11-29 17:48:13,755] - 	--> leaked: Room(10005).
+ ERROR root [0x00003f34] [2018-11-29 17:48:13,756] - 	--> leaked: FrameSyncMgr(1).
+ ERROR root [0x00003f34] [2018-11-29 17:48:13,757] - 	--> leaked: Avatar(10004).
+ ERROR root [0x00003f34] [2018-11-29 17:48:13,757] - 	--> leaked: Avatar(10008).
+ ERROR root [0x00003f34] [2018-11-29 17:48:13,759] - PyGC::debugTracing(): EntityCall : leaked(5)
+ ERROR root [0x00003f34] [2018-11-29 17:48:13,760] - PyGC::debugTracing(): Vector3 : leaked(8)
+ ERROR root [0x00003f34] [2018-11-29 17:48:13,760] - PyGC::debugTracing(): Entity : leaked(4)
+ ERROR root [0x00003f34] [2018-11-29 17:48:13,760] - PyGC::debugTracing(): EntityComponent : leaked(5)
+ DEBUG root [0x00003f34] [2018-11-29 17:48:13,761] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00003f34] [2018-11-29 17:48:13,761] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [0x00003f34] [2018-11-29 17:48:13,761] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [0x00003f34] [2018-11-29 17:48:13,761] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00003f34] [2018-11-29 17:48:13,761] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [0x00003f34] [2018-11-29 17:48:13,762] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00003f34] [2018-11-29 17:48:13,762] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00003f34] [2018-11-29 17:48:13,762] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [0x00003f34] [2018-11-29 17:48:13,789] - Script::uninstall(): is successfully!
+ DEBUG root [0x00003f34] [2018-11-29 17:48:13,789] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00003f34] [2018-11-29 17:48:14,091] - ThreadPool::destroy(): waiting for thread(2)[0x253de68,0x253e620,], try=1
+  INFO root [0x00003c4c] [2018-11-29 17:48:15,400] - 
+  INFO root [0x00003c4c] [2018-11-29 17:48:15,400] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00003c4c] [2018-11-29 17:48:15,401] - Resmgr::initialize: KBE_ROOT=E:/kbengine/
+  INFO root [0x00003c4c] [2018-11-29 17:48:15,401] - Resmgr::initialize: KBE_RES_PATH=E:/kbengine/kbe/res/;E:/kbengine/kbengine_frame_assets/;E:/kbengine/kbengine_frame_assets/scripts/;E:/kbengine/kbengine_frame_assets/res/
+  INFO root [0x00003c4c] [2018-11-29 17:48:15,401] - Resmgr::initialize: KBE_BIN_PATH=E:/kbengine/kbe/bin/server/
+  INFO root [0x00003c4c] [2018-11-29 17:48:15,405] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:21101 )
+  INFO root [0x00003c4c] [2018-11-29 17:48:15,405] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:21101, SOMAXCONN=5.
+  INFO root [0x00003c4c] [2018-11-29 17:48:15,405] - server-configs:
+  INFO root [0x00003c4c] [2018-11-29 17:48:15,405] - 	gameUpdateHertz : 30
+  INFO root [0x00003c4c] [2018-11-29 17:48:15,405] - 	defaultViewRadius : 80
+  INFO root [0x00003c4c] [2018-11-29 17:48:15,405] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00003c4c] [2018-11-29 17:48:15,405] - 	entryScriptFile : kbemain
+  INFO root [0x00003c4c] [2018-11-29 17:48:15,405] - 	internalTcpAddr : 192.168.56.1:21101
+  INFO root [0x00003c4c] [2018-11-29 17:48:15,405] - 	componentID : 8001
+  INFO root [0x00003c4c] [2018-11-29 17:48:16,911] - ---- cellapp Version: 2.3.0. ScriptVersion: 0.1.0. Protocol: 22FBE5C5190A61059B8ACA6E5FBE8BEB. Config: Debug X86. Built: 11:09:01 Nov 12 2018. AppID: 8001. UID: 10103. PID: 17048 ----
+  INFO root [0x00003c4c] [2018-11-29 17:48:16,911] - Server : Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz with 2097151kB RAM
+  INFO root [0x00003c4c] [2018-11-29 17:48:16,911] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00003c4c] [2018-11-29 17:48:16,912] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x00003c4c] [2018-11-29 17:48:17,038] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00003c4c] [2018-11-29 17:48:17,039] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x00003c4c] [2018-11-29 17:48:17,039] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x00003c4c] [2018-11-29 17:48:17,042] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00003c4c] [2018-11-29 17:48:17,042] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x00003c4c] [2018-11-29 17:48:17,042] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00003c4c] [2018-11-29 17:48:17,043] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00003c4c] [2018-11-29 17:48:17,075] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x00003c4c] [2018-11-29 17:48:17,110] - Script::install(): is successfully, Python=(3.4.2 (default, Nov 12 2018, 11:07:42) [MSC v.1915 32 bit (Intel)])!
+  INFO root [0x00003c4c] [2018-11-29 17:48:17,110] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00003c4c] [2018-11-29 17:48:17,167] - loaded component-script:FrameSync(8).
+ DEBUG root [0x00003c4c] [2018-11-29 17:48:17,169] - loaded component-script:FrameSyncReport(3).
+ DEBUG root [0x00003c4c] [2018-11-29 17:48:17,170] - loaded component-script:Operation(4).
+ DEBUG root [0x00003c4c] [2018-11-29 17:48:17,177] - loaded entity-script:Avatar(2).
+ DEBUG root [0x00003c4c] [2018-11-29 17:48:17,179] - loaded entity-script:FrameSyncMgr(5).
+ DEBUG root [0x00003c4c] [2018-11-29 17:48:17,188] - loaded entity-script:Room(7).
+  INFO root [0x00003c4c] [2018-11-29 17:48:17,188] - TelnetServer server is running on port 50000
+  INFO root [0x00003c4c] [2018-11-29 17:48:17,521] - ---- cellapp is running ----
+ DEBUG root [0x00003c4c] [2018-11-29 17:48:17,522] - Components::process(): Request for the process of identity...
+  WARN root [0x00003c4c] [2018-11-29 17:48:23,631] - EntityApp::checkTickPeriod: tick took 18512% (18.51 seconds)!
+  INFO root [0x00003c4c] [2018-11-29 17:48:24,655] - Components::findComponents: find logger(1)...
+  INFO root [0x00003c4c] [2018-11-29 17:48:24,756] - Components::findComponents: found logger, addr:192.168.56.1:21098
+  INFO root [0x00003c4c] [2018-11-29 17:48:24,756] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [0x00003c4c] [2018-11-29 17:48:24,756] - Components::addComponent[logger], uid=10103, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00003c4c] [2018-11-29 17:48:24,757] - Components::findComponents: find dbmgr(2)...
+  INFO root [0x00003c4c] [2018-11-29 17:48:24,861] - Components::findComponents: found dbmgr, addr:192.168.56.1:21100
+  INFO root [0x00003c4c] [2018-11-29 17:48:24,861] - Components::addComponent: reset orderLog, uid=10103!
+  INFO root [0x00003c4c] [2018-11-29 17:48:24,861] - Components::addComponent[dbmgr], uid=10103, componentID=4000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00003c4c] [2018-11-29 17:48:24,861] - Components::findComponents: found dbmgr, addr:192.168.56.1:21100
+  WARN root [0x00003c4c] [2018-11-29 17:48:25,861] - EntityApp::checkTickPeriod: tick took 3751% (3.75 seconds)!
+  WARN root [0x00003c4c] [2018-11-29 17:48:25,861] - Forwarding logs to logger[192.168.56.1:21098/0/0/0]...
+ ERROR root [0x00003c4c] [2018-11-29 17:51:11,896] - Components::removeComponentByChannel: logger : 2000, Abnormal exit! TCPPacketReceiver::processRecv(): error=10054
+
+  INFO root [0x00003c4c] [2018-11-29 17:51:11,897] - The following logs sent to logger failed:
+  WARN root [0x00003c4c] [2018-11-29 17:51:11,897] - ==> [2018-11-29 17:51:11 896] TCPPacketReceiver::processPendingEvents(192.168.56.1:21098): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00003c4c] [2018-11-29 17:51:11,897] - ==> [2018-11-29 17:51:11 897] Components::removeComponentByChannel: logger : 2000, Abnormal exit! TCPPacketReceiver::processRecv(): error=10054
+
+  WARN root [0x00003c4c] [2018-11-29 17:51:11,960] - TCPPacketReceiver::processPendingEvents(192.168.56.1:21100): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00003c4c] [2018-11-29 17:51:11,962] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit! TCPPacketReceiver::processRecv(): error=10054
+
+  INFO root [0x00003c4c] [2018-11-29 17:51:11,964] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00003c4c] [2018-11-29 17:51:11,965] - Shutdowner::onShutdown: shutting down
+S_INFO root [0x00003c4c] [2018-11-29 17:51:11,965] - Operation::onDetached(): owner=5
+ S_DBG root [0x00003c4c] [2018-11-29 17:51:11,965] - Room::onDestroy: 5
+S_INFO root [0x00003c4c] [2018-11-29 17:51:11,966] - Operation::onDetached(): owner=4
+ S_ERR root [0x00003c4c] [2018-11-29 17:51:11,966] - Traceback (most recent call last):
+  File "E:/kbengine/kbengine_frame_assets/scripts/cell/components\FrameSyncReport.py", line 21, in onDetached
+    frameSyncMgr = getFrameSyncMgr()
+ S_ERR root [0x00003c4c] [2018-11-29 17:51:11,967] - NameError: name 'getFrameSyncMgr' is not defined
+S_INFO root [0x00003c4c] [2018-11-29 17:51:11,968] - Operation::onDetached(): owner=4
+ S_DBG root [0x00003c4c] [2018-11-29 17:51:11,968] - Avatar::onDestroy: 4.
+  INFO root [0x00003c4c] [2018-11-29 17:51:11,970] - Spaces::destroySpace: 1.
+  INFO root [0x00003c4c] [2018-11-29 17:51:11,970] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00003c4c] [2018-11-29 17:51:11,971] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x00003c4c] [2018-11-29 17:51:11,971] - Witness::destroyObjPool(): size 16.
+ ERROR root [0x00003c4c] [2018-11-29 17:51:11,979] - EntityGarbages::~EntityGarbages(): leaked, size=3.
+ ERROR root [0x00003c4c] [2018-11-29 17:51:11,980] - 	--> leaked: Room(5).
+ ERROR root [0x00003c4c] [2018-11-29 17:51:11,980] - 	--> leaked: FrameSyncMgr(10001).
+ ERROR root [0x00003c4c] [2018-11-29 17:51:11,981] - 	--> leaked: Avatar(4).
+ ERROR root [0x00003c4c] [2018-11-29 17:51:11,982] - PyGC::debugTracing(): EntityCall : leaked(3)
+ ERROR root [0x00003c4c] [2018-11-29 17:51:11,983] - PyGC::debugTracing(): Vector3 : leaked(6)
+ ERROR root [0x00003c4c] [2018-11-29 17:51:11,983] - PyGC::debugTracing(): Entity : leaked(3)
+ ERROR root [0x00003c4c] [2018-11-29 17:51:11,983] - PyGC::debugTracing(): EntityComponent : leaked(3)
+ DEBUG root [0x00003c4c] [2018-11-29 17:51:11,984] - Script::uninstall_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x00003c4c] [2018-11-29 17:51:11,984] - Script::uninstall_py_dlls(): PyInit__socket
+ DEBUG root [0x00003c4c] [2018-11-29 17:51:11,984] - Script::uninstall_py_dlls(): PyInit__ssl
+ DEBUG root [0x00003c4c] [2018-11-29 17:51:11,984] - Script::uninstall_py_dlls(): PyInit__hashlib
+ DEBUG root [0x00003c4c] [2018-11-29 17:51:11,984] - Script::uninstall_py_dlls(): PyInit_select
+ DEBUG root [0x00003c4c] [2018-11-29 17:51:11,984] - Script::uninstall_py_dlls(): PyInit__ctypes
+ DEBUG root [0x00003c4c] [2018-11-29 17:51:11,985] - Script::uninstall_py_dlls(): PyInit__elementtree
+ DEBUG root [0x00003c4c] [2018-11-29 17:51:11,985] - Script::uninstall_py_dlls(): PyInit_unicodedata
+  INFO root [0x00003c4c] [2018-11-29 17:51:11,999] - Script::uninstall(): is successfully!
+ DEBUG root [0x00003c4c] [2018-11-29 17:51:11,999] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00003c4c] [2018-11-29 17:51:12,301] - ThreadPool::destroy(): waiting for thread(2)[0x24825d8,0x24826a8,], try=1
+  INFO root [0x000010a8] [2018-11-29 17:51:13,534] - 
+  INFO root [0x000010a8] [2018-11-29 17:51:13,534] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000010a8] [2018-11-29 17:51:13,535] - Resmgr::initialize: KBE_ROOT=E:/kbengine/
+  INFO root [0x000010a8] [2018-11-29 17:51:13,535] - Resmgr::initialize: KBE_RES_PATH=E:/kbengine/kbe/res/;E:/kbengine/kbengine_frame_assets/;E:/kbengine/kbengine_frame_assets/scripts/;E:/kbengine/kbengine_frame_assets/res/
+  INFO root [0x000010a8] [2018-11-29 17:51:13,535] - Resmgr::initialize: KBE_BIN_PATH=E:/kbengine/kbe/bin/server/
+  INFO root [0x000010a8] [2018-11-29 17:51:13,539] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.56.1 ( 192.168.56.1:21179 )
+  INFO root [0x000010a8] [2018-11-29 17:51:13,539] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.56.1:21179, SOMAXCONN=5.
+  INFO root [0x000010a8] [2018-11-29 17:51:13,539] - server-configs:
+  INFO root [0x000010a8] [2018-11-29 17:51:13,539] - 	gameUpdateHertz : 30
+  INFO root [0x000010a8] [2018-11-29 17:51:13,539] - 	defaultViewRadius : 80
+  INFO root [0x000010a8] [2018-11-29 17:51:13,539] - 	defaultViewHysteresisArea : 5
+  INFO root [0x000010a8] [2018-11-29 17:51:13,540] - 	entryScriptFile : kbemain
+  INFO root [0x000010a8] [2018-11-29 17:51:13,540] - 	internalTcpAddr : 192.168.56.1:21179
+  INFO root [0x000010a8] [2018-11-29 17:51:13,540] - 	componentID : 8001
+  INFO root [0x000010a8] [2018-11-29 17:51:15,044] - ---- cellapp Version: 2.3.0. ScriptVersion: 0.1.0. Protocol: 22FBE5C5190A61059B8ACA6E5FBE8BEB. Config: Debug X86. Built: 11:09:01 Nov 12 2018. AppID: 8001. UID: 10103. PID: 14220 ----
+  INFO root [0x000010a8] [2018-11-29 17:51:15,044] - Server : Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz with 2097151kB RAM
+  INFO root [0x000010a8] [2018-11-29 17:51:15,044] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000010a8] [2018-11-29 17:51:15,045] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+ DEBUG root [0x000010a8] [2018-11-29 17:51:15,174] - Script::install_py_dlls(): PyInit_pyexpat
+ DEBUG root [0x000010a8] [2018-11-29 17:51:15,174] - Script::install_py_dlls(): PyInit__socket
+ DEBUG root [0x000010a8] [2018-11-29 17:51:15,175] - Script::install_py_dlls(): PyInit__ssl
+ DEBUG root [0x000010a8] [2018-11-29 17:51:15,177] - Script::install_py_dlls(): PyInit__hashlib
+ DEBUG root [0x000010a8] [2018-11-29 17:51:15,178] - Script::install_py_dlls(): PyInit_select
+ DEBUG root [0x000010a8] [2018-11-29 17:51:15,178] - Script::install_py_dlls(): PyInit__ctypes
+ DEBUG root [0x000010a8] [2018-11-29 17:51:15,178] - Script::install_py_dlls(): PyInit__elementtree
+ DEBUG root [0x000010a8] [2018-11-29 17:51:15,213] - Script::install_py_dlls(): PyInit_unicodedata
+  INFO root [0x000010a8] [2018-11-29 17:51:15,255] - Script::install(): is successfully, Python=(3.4.2 (default, Nov 12 2018, 11:07:42) [MSC v.1915 32 bit (Intel)])!
+  INFO root [0x000010a8] [2018-11-29 17:51:15,255] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x000010a8] [2018-11-29 17:51:15,314] - loaded component-script:FrameSync(8).
+ DEBUG root [0x000010a8] [2018-11-29 17:51:15,316] - loaded component-script:FrameSyncReport(3).
+ DEBUG root [0x000010a8] [2018-11-29 17:51:15,318] - loaded component-script:Operation(4).
+ DEBUG root [0x000010a8] [2018-11-29 17:51:15,324] - loaded entity-script:Avatar(2).
+ DEBUG root [0x000010a8] [2018-11-29 17:51:15,326] - loaded entity-script:FrameSyncMgr(5).
+ DEBUG root [0x000010a8] [2018-11-29 17:51:15,329] - loaded entity-script:Room(7).
+  INFO root [0x000010a8] [2018-11-29 17:51:15,329] - TelnetServer server is running on port 50000
+  INFO root [0x000010a8] [2018-11-29 17:51:15,805] - ---- cellapp is running ----
+ DEBUG root [0x000010a8] [2018-11-29 17:51:15,828] - Components::process(): Request for the process of identity...

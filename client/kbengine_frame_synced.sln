@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kbengine_frame_synced.Plugins", "kbengine_frame_synced.Plugins.csproj", "{41028A58-FBF1-2DF0-5C93-CDCDEFBF7166}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kbengine_frame_synced", "kbengine_frame_synced.csproj", "{04963DDC-6DBC-FA31-7286-2E6DE901FB82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kbengine_frame_synced.Editor.Plugins", "kbengine_frame_synced.Editor.Plugins.csproj", "{B38687D1-D279-4CAF-9206-46837F61CBBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41028A58-FBF1-2DF0-5C93-CDCDEFBF7166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41028A58-FBF1-2DF0-5C93-CDCDEFBF7166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41028A58-FBF1-2DF0-5C93-CDCDEFBF7166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41028A58-FBF1-2DF0-5C93-CDCDEFBF7166}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04963DDC-6DBC-FA31-7286-2E6DE901FB82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04963DDC-6DBC-FA31-7286-2E6DE901FB82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04963DDC-6DBC-FA31-7286-2E6DE901FB82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04963DDC-6DBC-FA31-7286-2E6DE901FB82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B38687D1-D279-4CAF-9206-46837F61CBBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B38687D1-D279-4CAF-9206-46837F61CBBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B38687D1-D279-4CAF-9206-46837F61CBBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B38687D1-D279-4CAF-9206-46837F61CBBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

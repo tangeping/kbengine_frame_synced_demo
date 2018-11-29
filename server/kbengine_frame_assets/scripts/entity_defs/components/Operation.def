@@ -1,0 +1,34 @@
+<root>
+	<Properties>
+
+	    <state>
+            <Type>      	UINT8                 </Type>
+            <Flags>     	CELL_PUBLIC         	</Flags>
+            <Persistent>    false                	</Persistent>
+            <Default>       0               		</Default>
+        </state>
+
+	</Properties>
+
+	<BaseMethods>
+
+	</BaseMethods>
+	
+	<CellMethods>
+
+		<reqReady>
+            <Exposed/>
+            <Arg>       UINT8      </Arg>
+        </reqReady>
+
+	</CellMethods>
+
+	<ClientMethods>
+
+	    <readyResult>
+        <Arg>           UINT8               </Arg>
+        </readyResult>
+
+	</ClientMethods>
+</root>
+

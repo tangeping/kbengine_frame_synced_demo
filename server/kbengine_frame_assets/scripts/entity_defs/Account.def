@@ -1,0 +1,27 @@
+<root>
+	<Properties>
+			<characters>
+			<Type>			AVATAR_INFOS_LIST		</Type>
+			<Flags>			BASE					</Flags>
+			<Default>								</Default>
+			<Persistent>		true				</Persistent>
+		</characters>
+
+		<lastSelCharacter>
+			<Type>			DBID					</Type>
+			<Flags>			BASE_AND_CLIENT			</Flags>
+			<Default>		0						</Default>
+			<Persistent>		true				</Persistent>
+		</lastSelCharacter>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+</root>
